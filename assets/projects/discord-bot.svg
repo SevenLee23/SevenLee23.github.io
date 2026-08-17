@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 510" role="img" aria-label="Discord bot project placeholder">
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#252866"/><stop offset="1" stop-color="#0a1430"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="30"/></filter></defs>
+  <rect width="960" height="510" fill="url(#b)"/><circle cx="820" cy="80" r="170" fill="#7869ff" opacity=".45" filter="url(#g)"/><circle cx="130" cy="470" r="180" fill="#28d8df" opacity=".22" filter="url(#g)"/>
+  <rect x="126" y="64" width="708" height="380" rx="16" fill="#101832" stroke="#7891e9" stroke-opacity=".38"/><path d="M126 112h708" stroke="#7891e9" stroke-opacity=".3"/><circle cx="153" cy="88" r="7" fill="#ff7180"/><circle cx="177" cy="88" r="7" fill="#f5c964"/><circle cx="201" cy="88" r="7" fill="#67db9b"/>
+  <rect x="153" y="139" width="173" height="278" rx="8" fill="#172249"/><rect x="354" y="139" width="452" height="42" rx="6" fill="#1d2b59"/><rect x="354" y="201" width="182" height="13" rx="6" fill="#7a8cff"/><rect x="354" y="232" width="344" height="10" rx="5" fill="#5a6e9b"/><rect x="354" y="256" width="278" height="10" rx="5" fill="#5a6e9b"/><rect x="354" y="298" width="403" height="83" rx="8" fill="#172449"/>
+  <path d="M429 335c23-20 58-20 81 0l-7 47-31-15-31 15z" fill="#7d86ff"/><circle cx="451" cy="337" r="8" fill="#142044"/><circle cx="492" cy="337" r="8" fill="#142044"/>
+  <text x="165" y="165" fill="#9dc8ff" font-family="monospace" font-size="18">SERVER</text><text x="374" y="167" fill="#d9e8ff" font-family="monospace" font-size="17"># community-management</text><text x="374" y="222" fill="#85f0e9" font-family="monospace" font-size="17">bot.online()</text>
+</svg>

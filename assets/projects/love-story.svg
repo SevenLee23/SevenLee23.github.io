@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 510" role="img" aria-labelledby="title description">
+  <title id="title">Love Story project preview</title>
+  <description id="description">A warm cream and berry-pink invitation interface with hearts and a playful question.</description>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fffaf5"/>
+      <stop offset="1" stop-color="#f8e9e6"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#de5e95"/>
+      <stop offset="1" stop-color="#b92f67"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#a94970" flood-opacity=".18"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="510" fill="#fbf4eb"/>
+  <circle cx="140" cy="80" r="160" fill="#f5cad9" opacity=".35"/>
+  <circle cx="850" cy="430" r="210" fill="#f7d3c4" opacity=".45"/>
+  <circle cx="827" cy="82" r="96" fill="#fde4ea"/>
+
+  <g fill="#d95388" opacity=".32">
+    <path d="M82 158c-11-18-38-8-27 12l27 34 27-34c11-20-16-30-27-12z"/>
+    <path d="M875 359c-9-15-32-7-23 10l23 29 23-29c9-17-14-25-23-10z"/>
+    <path d="M170 435c-7-11-24-5-18 8l18 22 18-22c6-13-11-19-18-8z"/>
+  </g>
+  <g fill="#c43670" opacity=".5">
+    <circle cx="126" cy="277" r="4"/><circle cx="151" cy="298" r="3"/><circle cx="795" cy="177" r="4"/><circle cx="822" cy="163" r="3"/><circle cx="853" cy="197" r="3"/>
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <rect x="210" y="56" width="540" height="398" rx="28" fill="url(#paper)" stroke="#efd4d6" stroke-width="2"/>
+    <rect x="231" y="78" width="498" height="47" rx="15" fill="#fff" opacity=".8"/>
+    <circle cx="258" cy="102" r="7" fill="#f189a9"/><circle cx="280" cy="102" r="7" fill="#f6c66b"/><circle cx="302" cy="102" r="7" fill="#88caa0"/>
+    <text x="480" y="108" text-anchor="middle" fill="#ba4a73" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">MỘT LỜI MỜI NHO NHỎ</text>
+
+    <path d="M480 147c-12-20-42-9-30 14l30 38 30-38c12-23-18-34-30-14z" fill="url(#pink)"/>
+    <text x="480" y="245" text-anchor="middle" fill="#c43670" font-family="Arial, sans-serif" font-size="33" font-weight="700">Nàng sẵn sàng chưaaaa?</text>
+    <text x="480" y="276" text-anchor="middle" fill="#825467" font-family="Arial, sans-serif" font-size="16">Một trải nghiệm nhỏ được kể bằng code.</text>
+
+    <rect x="303" y="311" width="167" height="50" rx="15" fill="url(#pink)"/>
+    <text x="386" y="342" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="700">Em sẵn sàng</text>
+    <rect x="490" y="311" width="167" height="50" rx="15" fill="#fff7f7" stroke="#e7a5ba" stroke-width="2"/>
+    <text x="573" y="342" text-anchor="middle" fill="#c43670" font-family="Arial, sans-serif" font-size="16" font-weight="700">Chưa đâu nè</text>
+
+    <text x="480" y="407" text-anchor="middle" fill="#b7778c" font-family="Arial, sans-serif" font-size="13">HTML · CSS · JavaScript</text>
+  </g>
+
+  <g stroke="#d65d8c" stroke-width="2" stroke-linecap="round" opacity=".55">
+    <path d="M165 209h24m-12-12v24"/><path d="M775 275h24m-12-12v24"/><path d="M753 124h16m-8-8v16"/>
+  </g>
+</svg>
