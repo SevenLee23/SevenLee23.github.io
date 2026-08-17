@@ -1,10 +1,3 @@
-/*
- * Portfolio configuration
- * ───────────────────────
- * Edit personal details, links, skills, projects, timeline entries, and
- * GitHub sample data here. The interaction/rendering code is in script.js.
- */
-
 window.SITE_CONFIG = {
   profile: {
     name: "SEVENLEE",
@@ -27,8 +20,6 @@ window.SITE_CONFIG = {
   },
 
   contact: {
-    // Create a Formspree form, then paste its unique endpoint here.
-    // Example: "https://formspree.io/f/abcdwxyz"
     formspreeEndpoint: "https://formspree.io/f/xdenwegg"
   },
 
@@ -39,7 +30,6 @@ window.SITE_CONFIG = {
     { value: "1000+", label: "Lines of Code", icon: "\uf1c9" }
   ],
 
-  // Icons use Font Awesome class names. Percentages are editable sample values.
   skills: [
     { title: "Programming Languages", icon: "fa-solid fa-code", items: [
       { name: "Python", icon: "fa-brands fa-python", level: 65 }, { name: "JavaScript", icon: "fa-brands fa-js", level: 54 },
@@ -92,7 +82,6 @@ window.SITE_CONFIG = {
       description: "A modular community-management bot concept focused on reliable moderation, clear permissions, and useful automation.",
       technologies: ["Python", "discord.py", "SQLite/PostgreSQL", "JSON", "AsyncIO"],
       features: ["Moderation", "AutoMod", "Permission management", "Logging", "Anti-link", "Welcome system", "Role management", "Music system"],
-      // Leave a link blank to hide its GitHub or Live Demo button.
       github: "", live: ""
     },
     {
@@ -111,14 +100,13 @@ window.SITE_CONFIG = {
     { date: "09/2024 - 3/2025", title: "University Teaching Assistant", organization: "Teacher", description: "I assist instructors with IT teaching.", technologies: ["Python", "Teacher", "Frontend"] }, 
   ],
 
-  // Replace this object with GitHub API data when ready.
   github: {
     repositoryCount: "02", stars: "00", followers: "00", contributions: "000",
     popularRepos: [
       { name: "SevenLee23.github.io", description: "My personal website and portfolio.", stars: "0" },
       { name: "Love_Story", description: "A simple love story told through code.", stars: "0" },
-      { name: "Enterprise Discord Management Bot", description: "A modular community-management bot concept. Coming soon!", stars: "0" },
-      { name: "Finger Tracking & Visual Effects", description: "A real-time computer-vision experiment that follows hand landmarks and layers expressive visual effects onto camera input. Coming soon!", stars: "0" }
+      { name: "Enterprise Discord Management Bot", description: "Coming soon!", stars: "0" },
+      { name: "Finger Tracking & Visual Effects", description: "Coming soon!", stars: "0" }
     ]
   }
 };

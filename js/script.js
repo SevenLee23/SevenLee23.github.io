@@ -1,5 +1,3 @@
-/* Site interactions and dynamic rendering. Edit content in config.js. */
-
 const SITE_CONFIG = window.SITE_CONFIG;
 
 if (!SITE_CONFIG) {
